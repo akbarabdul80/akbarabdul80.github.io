@@ -1,0 +1,91 @@
+### Site Settings ###
+title               : Zero Dev
+description         : >-
+                      I turn coffee :coffee: into code, <br>
+                      Do one think and do it well 🧑‍💻.
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+repository          : akbarabdul80/zerodev.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
+remote_theme        : akbarabdul80/portfolYOU
+open_new_tab        : true 
+
+
+### Plugins ###
+plugins:
+  - jemoji
+
+
+### Navbar Settings ###
+nav_exclude:                                            # The following paths are excluded from navbar
+  - pages/tags.html
+  - pages/404.html
+  - pages/index.md
+
+
+### Author Info ###
+author:
+  name              : Zero Dev
+  image             : https://avatars.githubusercontent.com/u/44803987?s=400&u=fd45f49c5c0ec39c88a75a8d9ca7292a99593661&v=4
+  image_about       : https://avatars.githubusercontent.com/u/44803987?s=400&u=fd45f49c5c0ec39c88a75a8d9ca7292a99593661&v=4
+# behance           : your_username
+# dribbble          : your_username
+  email             : akbarabdul80@gmail.com
+# facebook          : your_username
+  github            : akbarabdul80
+# gitlab            : your_username
+# instagram         : your_username
+# kaggle            : your_username
+  linkedin          : akbar-abdul
+# medium            : your_username
+# soundcloud        : your_username
+# spotify           : your_username
+# stackoverflow     : your_user_id
+# tumblr            : your_username.tumblr.com
+# twitch            : your_username
+# twitter           : your_username
+# vimeo             : your_username
+# youtube           : your_channel_name
+# keybase           : your_username
+
+
+### Posts ###
+permalink: /blog/:title
+
+
+### Collections ###
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
+
+### Disqus ###
+disqus:
+  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+
+
+### Analytics ###
+analytics:
+  enabled: false                                        # Set true to enable analytics
+  google:
+    tracking_id: your-google-tracking-id
+
+
+### Defaults for collections ###
+defaults:
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: false                                   # Set to true to enable disqus comments
+
+### Exclude from processing ###
+exclude:
+  - README.md
+  - CONTRIBUTING.md
+  - LICENSE
+  - "*.log"
