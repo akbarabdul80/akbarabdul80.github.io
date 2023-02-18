@@ -3,7 +3,7 @@ title               : Zero Dev
 description         : >-
                       I turn coffee :coffee: into code, <br>
                       Do one think and do it well 🧑‍💻.
-baseurl             : "zerodev.github.io"                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
+baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : akbarabdul80/zerodev.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : akbarabdul80/portfolYOU
 open_new_tab        : true 
