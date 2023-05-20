@@ -1,4 +1,4 @@
-- title: Student, University Gadjah Mada (UGM)
+- title: Student, Universitas Gadjah Mada (UGM)
   from: 2020
   to: present
   description: I am a Software Engineering Technology student, passionate about learning all aspects of software development and how to create high-quality software. My coursework in TRPL has equipped me with knowledge in various programming languages, software design patterns, and development methodologies.
@@ -7,3 +7,8 @@
   from: 2020
   to: present
   description:  Work as an Android Developer, specializing in slicing UI from Figma designs and connecting APIs from servers. I have experience in developing Android applications with engaging user interfaces and smooth interactions, ensuring optimal performance of the apps.
+
+- title: Android Dev (Intern), PT Telkom Indonesia
+  from: 2021
+  to: 2021
+  description:  Refine development skills by attending training and learning the SOLID methodology, clean architecture, and effective use of Git, to improve code quality and create structured and scalable solutions in programming projects.
